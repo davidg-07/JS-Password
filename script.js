@@ -1,8 +1,11 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXZ"
+var lowercaseChar = "abcdefghijklmopqrstuvwxz"
+
 function generatePassword() {
-  var generatePassword = "generated password";
+  var generatedPassword = "generated password";
   console.log("clicket generate password");
   return generatedPassword;
 }
