@@ -3,6 +3,8 @@ var generateBtn = document.querySelector("#generate");
 
 var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXZ"
 var lowercaseChar = "abcdefghijklmopqrstuvwxz"
+var numerical = "0123456789"
+var specialChar = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
 function generatePassword() {
   var generatedPassword = "generated password";
