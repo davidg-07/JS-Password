@@ -10,6 +10,8 @@ var passwordBase = ''
 function generatePassword() {
 var passwordLength = prompt("How long would you like your password to be? Please choose a length of 8-128 characters.")
 console.log(passwordLength)
+passwordLength = parseInt(passwordLength);
+console.log(passwordLength)
 // if password length >128 and < 8 throw an alert to pick again
 if (passwordLength <= 128 && passwordLength >= 8) {
   promptUppercase();
@@ -39,12 +41,17 @@ function promptLowerCase(){
     // promptNumerical()
   }
 }
+
+function MakePassword() {
+
+}
 //if yes include lowercase and prompt numerical
 //if no prompt numerical
 //prompt numerical
 //if yes include numerical and propmp special
 //if no just prompt special
 //
+
 
   var generatedPassword = "generated password";
   console.log("clicket generate password");
