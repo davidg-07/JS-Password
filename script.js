@@ -18,7 +18,7 @@ if (passwordLength <= 128 && passwordLength >= 8) {
 }
 //prompt uppercase
 function promptUppercase() {
-  var includeUppercase = confirm("Do you want to include uppercase letters");
+  var includeUppercase = confirm("Do you want to include uppercase letters?");
   if (includeUppercase){
     // if yes include to uppercase and prompt lowercase
     passwordBase = passwordBase.concat(uppercaseChar)
@@ -31,15 +31,31 @@ function promptUppercase() {
 }
 //prompt lowercase
 function promptLowerCase(){
-  var includeLowercase = confirm("Do you want to include Lowercase letters") 
+  var includeLowercase = confirm("Do you want to include Lowercase letters?") 
   if (includeLowercase){
     passwordBase = passwordBase.concat(lowercaseChar)
     console.log(passwordBase)
     // promptNumerical()
-
+    promptNumerical()
   } else{
     // promptNumerical()
+    promptNumerical()
   }
+}
+
+function promptNumerical() {
+  var includeNumerical = confirm("Do you want to include numerical characters?")
+  if (includeNumerical){
+    passwordBase = passwordBase.concat(numerical)
+    console.log(passwordBase)
+    promptSpecialChar()
+  } else{
+    promptSpecialChar()
+  }
+}
+
+function promptSpecialChar(){
+  var include
 }
 
 function MakePassword() {
