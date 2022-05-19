@@ -53,7 +53,6 @@ function promptUppercase() {
   }
 
   // function MakePassword() {
-
   // }
 function generatePassword() {
   var passwordLength = prompt("How long would you like your password to be? Please choose a length of 8-128 characters.");
@@ -78,7 +77,7 @@ function generatePassword() {
 const myArray = passwordBase.split("");
 console.log(myArray)
   for (var i = 0; i < passwordLength; i++){
-    generatedPassword = passwordBase[Math.floor(Math.random() * passwordBase.length)]
+    generatedPassword += passwordBase[Math.floor(Math.random() * passwordBase.length)]
   }
   console.log("clicket generate password");
   return generatedPassword;
