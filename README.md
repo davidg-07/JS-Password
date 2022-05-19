@@ -24,10 +24,10 @@ The HTML document includes:
 ## Links
 * [Deployed webpage](link)
 
-* [Repo](link)
+* [Repo](https://github.com/davidg-07/JS-Password)
 
 ## Screenshot
-![image]()
+![image](./screencapture-file-C-Users-david-BootCamp-Challenges-JS-Password-index-html-2022-05-18-19_29_38.png)
 
 ## Credit
 David Galvez
