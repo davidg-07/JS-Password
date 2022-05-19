@@ -1,6 +1,6 @@
 # JS-password
 
-## The purose of this website is to auto geneerate a password for you randomly.
+## The purose of this website is to auto generate a password for you randomly.
 
 ## Challenge Discripton
 
@@ -22,7 +22,7 @@ The HTML document includes:
 - JavaScript
 
 ## Links
-* [Deployed webpage](link)
+* [Deployed webpage](https://davidg-07.github.io/JS-Password/)
 
 * [Repo](https://github.com/davidg-07/JS-Password)
 
