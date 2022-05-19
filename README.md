@@ -4,11 +4,7 @@
 
 ## Challenge Discripton
 
-## User story
-
-```
-AS 
-```
+- make a password generate within 8-128 characters randomly
 
 ## Acceptance criteria
 

@@ -44,7 +44,7 @@ function promptUppercase() {
     }
   }
 
-  function promptSpecialChar(); {
+  function promptSpecialChar() {
     var includeSpecialChar = confirm("Do you want to include special charatcers?");
     if (includeSpecialChar) {
       passwordBase = passwordBase.concat(specialChar);
@@ -76,8 +76,9 @@ function generatePassword() {
 
   var generatedPassword = "";
 const myArray = passwordBase.split("");
+console.log(myArray)
   for (var i = 0; i < passwordLength; i++){
-    password = passwordBase[Math.floor(math.random() * passwordBase.length)]
+    generatedPassword = passwordBase[Math.floor(Math.random() * passwordBase.length)]
   }
   console.log("clicket generate password");
   return generatedPassword;
